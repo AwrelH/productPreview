@@ -3,6 +3,7 @@
 body {
   background-color: hsl(30, 38%, 92%);
 }
+
 .container {
   margin-top: 150px;
   display: flex;
@@ -16,6 +17,7 @@ body {
   font-size: 2rem;
   font-family: Fraunces, sans-serif;
 }
+
 .price-body {
   display: flex;
   align-items: center;
@@ -39,9 +41,11 @@ body {
   width: 100%;
   padding: 10px;
 }
+
 .card {
   display: flex;
 }
+
 .product-type {
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -49,15 +53,18 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
+
 h5 {
   font-weight: 700;
   font-family: Fraunces, sans-serif;
   font-size: 28px;
 }
+
 .card-text {
   font-family: Montserrat, sans-serif;
   font-size: 14px;
 }
+
 .btn:hover {
   background-color: hsl(158, 36%, 37%);
 }
@@ -67,10 +74,12 @@ h5 {
     content: url("images/image-product-mobile.jpg");
     background-position: center;
   }
+
   .container {
-    min-width: 318px;
+    min-width: 345px;
     margin-top: 20px;
   }
+
   .btn {
     margin-bottom: 0;
   }
