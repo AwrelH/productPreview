@@ -40,6 +40,7 @@ body {
 .btn {
   width: 100%;
   padding: 10px;
+  background-color: hsl(158, 36%, 37%);
 }
 
 .card {
@@ -54,7 +55,7 @@ body {
   font-weight: 500;
 }
 
-h5 {
+h1 {
   font-weight: 700;
   font-family: Fraunces, sans-serif;
   font-size: 28px;
